@@ -13,13 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
 
-    <title>Document | @yield('title')</title>
+    <title>Blog | @yield('title')</title>
     @vite('resources/css/app.css')
 </head>
 
 <body>
     @include('partials.navbar._nav')
     @yield('content')
+    @include('partials.footer._footer')
 </body>
 
 </html>
